@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #C4D2F3;
+    }
+
+    header {
+        display: flex inline-block;
+        flex-direction: row;
+        background-color: #C4D2F3;
+        font-family: 'Amatic SC', cursive;
+    }
+
+    .top-header {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 1em;
+        background-color: #C4D2F3;
+    }
+
+    .top-header p a {
+        margin: 0 0.5em;
+        color: black;
+        text-decoration: none;
+        font-size: 25px;
+    }
+
+    .top-header p a:hover {
+        color: black;
+        text-decoration: underline;
+        text-underline-offset: 0.2em;
+    }
+
+    .top-header ul {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .top-header ul li {
+        margin: 0 1em;
+        text-decoration: none;
+        list-style-type: none;
+    }
+
+    .top-header ul li a {
+        text-decoration: none;
+        color: black;
+        font-size: 25px;
+    }
+
+    .top-header ul li a:hover {
+        text-decoration: underline;
+        text-underline-offset: 0.2em;
+        color: black;
+    }
+
+    .bottom-header {
+        display: flex;
+        align-items: center;
+        justify-content: top;
+        flex-direction: column;
+        background-image: url(/public/img/sozopol-old-town.jpg);
+        background-position: center;
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        min-height: 350px;
+        border-end-end-radius: 15em;
+        border-start-start-radius: 15em;
+    }
+
+    .bottom-header h1 {
+        font-size: 40px;
+        letter-spacing: 0.2em;
+        margin-top: 0.5em;
+        margin-bottom: 0.2em;
+        color: transparent;
+        -webkit-text-stroke: 1px black;
+        font-family: 'Amatic SC', cursive;
+    }
+
+    .bottom-header h3 {
+        margin: 1em;
+        font-size: 20px;
+        color: transparent;
+        letter-spacing: 0.3em;
+        -webkit-text-stroke: 1px black;
+        font-family: 'Amatic SC', cursive;
+    }
+</style>
+
+<body>
+    <header>
+        <section class="top-header">
+            <ul>
+                <li><a href="#">Апартамент Христо Ботев</a></li>
+                <li><a href="#">Апартамент Одеса</a></li>
+                <li><a href="#">За Созопол</a></li>
+            </ul>
+            <p>
+                <a href="#">EN</a>
+                <a href="#">BG</a>
+            </p>
+        </section>
+        <section class="bottom-header">
+            <h1>АПАРТАМЕНТИ ПОД НАЕМ</h1>
+            <h3>В СОЗОПОЛ</h3>
+        </section>
+    </header>
+</body>
+
+</html>

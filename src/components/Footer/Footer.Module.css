@@ -1,0 +1,28 @@
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #C4D2F3;
+    padding: 0.1em;
+    box-shadow: inset 0px 4px 3px rgba(15, 50, 32, 0.167);
+}
+
+.fa-phone {
+    margin: 0 1em
+}
+footer p a,
+footer p {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+
+footer p a:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+    color: black;
+
+}
