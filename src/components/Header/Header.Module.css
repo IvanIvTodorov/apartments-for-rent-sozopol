@@ -23,6 +23,8 @@
 
     .top-header p {
         display: flex;
+        align-items: center;
+        margin: 0 0;
     }
 
     .top-header p a {

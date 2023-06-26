@@ -1,0 +1,27 @@
+.odesa-photos {
+    margin: 2em 2em;
+}
+
+.odesa-img {
+    display: block;
+    width: 100%;
+    border-top-right-radius: 10em;
+    border-bottom-left-radius: 10em;
+}
+
+.odesa-photos h2 {
+    text-align: center;
+    font-size: 35px;
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-underline-offset: 0.2em;
+}
+
+.odesa-map {
+    display: flex;
+    width: 90%;
+    height: 20em;
+    justify-content: center;
+    align-items: center;
+    margin: 1em auto;
+}

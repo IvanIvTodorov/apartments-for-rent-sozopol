@@ -4,16 +4,21 @@ import { useState, useEffect, Fragment } from "react";
 import { Header } from "./components/Header/Header.js";
 import { Footer } from "./components/Footer/Footer.js";
 import { Main } from "./components/Main/Main.js";
+import { LangContext } from "./contexts/Language.js";
 
 function App() {
+  const [lang, setLang] = useState('BG');
+
   return (
-    <Fragment>
-      <Header />
+    <LangContext.Provider value={{lang, setLang}}>
+      <Fragment>
+        <Header />
 
-      <Main />
+        <Main />
 
-      <Footer />
-    </Fragment>
+        <Footer />
+      </Fragment>
+    </LangContext.Provider>
   );
 }
 
