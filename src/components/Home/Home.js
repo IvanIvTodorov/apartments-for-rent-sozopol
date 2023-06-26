@@ -2,6 +2,7 @@ import style from "./Home.Module.css";
 import odesaPanorama from "../../img/Odesa/Pnorama1.jpg";
 import botevPicture from "../../img/Botev/66224925_2358776481069880_6276619275994136576_n.jpg";
 import { Link } from "react-router-dom";
+
 export const Home = () => {
     return (
         <section className="home-section">

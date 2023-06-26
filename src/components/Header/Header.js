@@ -1,4 +1,6 @@
 import style from "./Header.Module.css";
+import { Link } from "react-router-dom";
+
 
 export const Header = () => {
     return (
@@ -6,13 +8,13 @@ export const Header = () => {
             <section className="top-header">
                 <ul>
                     <li>
-                        <a href="#">Апартамент Христо Ботев</a>
+                        <Link to="/Botev"><a href="#">Апартамент Христо Ботев</a></Link>
                     </li>
                     <li>
-                        <a href="#">Апартамент Одеса</a>
+                        <Link to="/Odesa"><a href="#">Апартамент Одеса</a></Link>
                     </li>
                     <li>
-                        <a href="#">За Созопол</a>
+                        <Link to="ZaSozopol"><a href="#">За Созопол</a></Link>
                     </li>
                 </ul>
                 <p>
