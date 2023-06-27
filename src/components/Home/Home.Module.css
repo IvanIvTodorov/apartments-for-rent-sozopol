@@ -53,3 +53,61 @@
     text-align: center;
     color: black;
 }
+
+@media (max-width:450px) {
+    .apartments h4 {
+        margin-bottom: 0.5em;
+    }
+
+    .odesa {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .odesa img {
+        display: flex;
+        max-width: 80%;
+        border-radius: 0em;
+        border-radius: 4em;
+        margin-bottom: 0em;
+        margin: auto;
+    }
+
+    .odesa p {
+        font-size: 25px;
+        margin-top: -2.2em;
+        margin-left: 2.3em;
+        margin-bottom: 1em;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .botev {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .botev img {
+        display: flex;
+        max-width: 80%;
+        border-radius: 0em;
+        border-radius: 4em;
+        margin-bottom: 0em;
+        margin: auto;
+    }
+
+    .botev p {
+        font-size: 25px;
+        margin-top: -2.2em;
+        margin-left: 2.3em;
+        margin-bottom: 1em;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+}

@@ -81,3 +81,21 @@ section section {
 .comfort-item p i {
     margin-left: 0.2em;
 }
+
+@media (max-width:450px) {
+    .prices-botev {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .comfort-item {
+        display: flex;
+        justify-content: center;
+        margin-top: 1.5em;
+    }
+
+    .comfort-item p {
+        font-size: 0.8em;
+        margin: 0 0;
+    }
+}

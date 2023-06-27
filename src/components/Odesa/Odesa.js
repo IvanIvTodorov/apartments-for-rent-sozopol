@@ -103,7 +103,7 @@ export const Odesa = ({ OdesaPhotos }) => {
                             <p>Air-conditioning<i class="fa-solid fa-snowflake"></i></p>
                             <p>Stove<i class="fa-solid fa-fire-burner"></i></p>
                             <p>Utensils<i class="fa-solid fa-utensils"></i></p>
-                        </section>
+                        </section> 
                     </section>
                 </section>
             </section>

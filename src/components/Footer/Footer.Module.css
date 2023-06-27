@@ -9,6 +9,7 @@ footer {
 .fa-phone {
     margin: 0 1em
 }
+
 footer p a,
 footer p {
     display: flex;
@@ -17,7 +18,7 @@ footer p {
     color: black;
     font-size: 25px;
     font-weight: bold;
-    
+
 }
 
 footer p a:hover {
@@ -35,3 +36,21 @@ p img {
     margin-left: 0.2em;
 }
 
+@media (max-width:450px) {
+    
+
+    footer p a,
+    footer p {
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        color: black;
+        font-size: 0.9em;
+        font-weight: bold;
+    }
+
+    footer img {
+        width: 18px;
+        height: 18px;
+    }
+}
