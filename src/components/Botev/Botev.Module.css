@@ -25,3 +25,59 @@
     align-items: center;
     margin: 1em auto;
 }
+
+.prices-botev {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+}
+
+section div {
+    display: flex;
+    flex-direction: row;
+}
+
+section section {
+    display: flex;
+    font-size: 25px;
+}
+
+.price p {
+    display: flex;
+    margin: 0.2em 0em;
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+}
+
+.price h5 {
+    display: flex;
+    margin: 0.2em 0.5em;
+    font-size: 35px;
+}
+
+.comfort {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.comfort p {
+    display: flex;
+    margin: 0.2em 1.5em;
+}
+
+.comfort-item p i {
+    margin-left: 0.2em;
+}
