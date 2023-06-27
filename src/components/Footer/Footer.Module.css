@@ -10,6 +10,10 @@ footer {
     margin: 0 1em
 }
 
+footer p img:first-of-type {
+    margin-left: 0.7em;
+}
+
 footer p a,
 footer p {
     display: flex;
@@ -37,7 +41,9 @@ p img {
 }
 
 @media (max-width:450px) {
-    
+    .fa-phone {
+        display: none;
+    }
 
     footer p a,
     footer p {
@@ -45,7 +51,7 @@ p img {
         justify-content: center;
         text-decoration: none;
         color: black;
-        font-size: 0.9em;
+        font-size: 1em;
         font-weight: bold;
     }
 
