@@ -103,6 +103,17 @@ header {
         max-height: 320px;
     }
 
+    .nav {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-right: 1.5em;
+    }
+
+    .nav li{
+        font-size: 0.3em;
+    }
+
     .top-header {
         display: flex;
         flex-direction: column-reverse;
@@ -123,7 +134,7 @@ header {
 
     .bottom-header h1,
     .bottom-header h3 {
-        font-size: 0.8em;
-        margin-top: 2.5em;
+        font-size: 1em;
+        margin-top: 2em;
     }
 }

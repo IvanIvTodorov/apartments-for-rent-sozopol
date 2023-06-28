@@ -16,7 +16,7 @@ export const Header = () => {
         return (
             <header>
                 <section className="top-header">
-                    <ul>
+                    <ul className="nav">
                         <li>
                             <Link to="/">Начало</Link>
                         </li>

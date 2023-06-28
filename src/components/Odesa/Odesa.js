@@ -26,7 +26,7 @@ export const Odesa = ({ OdesaPhotos }) => {
                         ))}
                     </Masonry>
                 </ResponsiveMasonry>
-                <h2>Къде можете да ни намерите</h2>
+                <h2>Къде може да ни намерите</h2>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2945.5235633813204!2d27.697201375853204!3d42.41658937118779!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a6c7be0ae1d153%3A0xa82dcaa43176b859!2z0JDQv9Cw0YDRgtCw0LzQtdC90YIg0J7QtNC10YHQsCAvIE9kZXNzYSBhcGFydG1lbnQ!5e0!3m2!1sbg!2sbg!4v1687793263536!5m2!1sbg!2sbg"
                     className="odesa-map">
                 </iframe>
@@ -44,14 +44,14 @@ export const Odesa = ({ OdesaPhotos }) => {
                     </section>
                     <section className="comfort">
                         <section className="comfort-item">
-                            <p>Интернет<i class="fa-solid fa-wifi"></i></p>
-                            <p>Телевизия<i class="fa-solid fa-tv"></i></p>
-                            <p>Хладилник<i class="fa-solid fa-temperature-low"></i></p>
+                            <p>Интернет<i className="fa-solid fa-wifi"></i></p>
+                            <p>Телевизия<i className="fa-solid fa-tv"></i></p>
+                            <p>Хладилник<i className="fa-solid fa-temperature-low"></i></p>
                         </section>
                         <section className="comfort-item">
-                            <p>Климатик<i class="fa-solid fa-snowflake"></i></p>
-                            <p>Котлони<i class="fa-solid fa-fire-burner"></i></p>
-                            <p>Посуда<i class="fa-solid fa-utensils"></i></p>
+                            <p>Климатик<i className="fa-solid fa-snowflake"></i></p>
+                            <p>Котлони<i className="fa-solid fa-fire-burner"></i></p>
+                            <p>Посуда<i className="fa-solid fa-utensils"></i></p>
                         </section>
                     </section>
                 </section>
@@ -95,14 +95,14 @@ export const Odesa = ({ OdesaPhotos }) => {
                     </section>
                     <section className="comfort">
                         <section className="comfort-item">
-                            <p>Internet<i class="fa-solid fa-wifi"></i></p>
-                            <p>TV<i class="fa-solid fa-tv"></i></p>
-                            <p>Refrigerator<i class="fa-solid fa-temperature-low"></i></p>
+                            <p>Internet<i className="fa-solid fa-wifi"></i></p>
+                            <p>TV<i className="fa-solid fa-tv"></i></p>
+                            <p>Refrigerator<i className="fa-solid fa-temperature-low"></i></p>
                         </section>
                         <section className="comfort-item">
-                            <p>Air-conditioning<i class="fa-solid fa-snowflake"></i></p>
-                            <p>Stove<i class="fa-solid fa-fire-burner"></i></p>
-                            <p>Utensils<i class="fa-solid fa-utensils"></i></p>
+                            <p>Air-conditioning<i classNames="fa-solid fa-snowflake"></i></p>
+                            <p>Stove<i className="fa-solid fa-fire-burner"></i></p>
+                            <p>Utensils<i className="fa-solid fa-utensils"></i></p>
                         </section> 
                     </section>
                 </section>
