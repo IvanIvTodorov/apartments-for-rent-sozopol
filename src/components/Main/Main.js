@@ -11,7 +11,8 @@ export const Main = () => {
         <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/Botev" element={<Botev BotevPhotos={BotevPhotos}/>} />
-            <Route path="/Odesa" element={<Odesa OdesaPhotos={OdesaPhotos}/>} />
+            <Route path="/Odessa" element={<Odesa OdesaPhotos={OdesaPhotos}/>} />
+            <Route path='*' element={<Home />} />
         </Routes>
     );
 };

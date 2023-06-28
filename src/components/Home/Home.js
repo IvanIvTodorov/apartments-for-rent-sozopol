@@ -12,7 +12,7 @@ export const Home = () => {
         return (
             <section className="home-section">
                 <section className="apartments">
-                    <Link to="/Odesa" className="link">
+                    <Link to="/Odessa" className="link">
                         <h4>АПАРТАМЕНТ ОДЕСА</h4>
                         <section className="odesa">
                             <img src={odesaPanorama} alt="apartment-odesa" />
@@ -47,7 +47,7 @@ export const Home = () => {
         return (
             <section className="home-section">
                 <section className="apartments">
-                    <Link to="/Odesa" className="link">
+                    <Link to="/Odessa" className="link">
                         <h4>APARTMENT ODESSA</h4>
                         <section className="odesa">
                             <img src={odesaPanorama} alt="apartment-odesa" />

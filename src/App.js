@@ -10,7 +10,7 @@ function App() {
   const [lang, setLang] = useState('BG');
 
   return (
-    <LangContext.Provider value={{lang, setLang}}>
+    <LangContext.Provider value={{ lang, setLang }}>
       <Fragment>
         <Header />
 

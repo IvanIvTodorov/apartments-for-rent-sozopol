@@ -24,7 +24,7 @@ export const Header = () => {
                             <Link to="/Botev">Апартамент Христо Ботев</Link>
                         </li>
                         <li>
-                            <Link to="/Odesa">Апартамент Одеса</Link>
+                            <Link to="/Odessa">Апартамент Одеса</Link>
                         </li>
                     </ul>
                     <p>
@@ -55,7 +55,7 @@ export const Header = () => {
                             <Link to="/Botev">Apartment Hristo Botev</Link>
                         </li>
                         <li>
-                            <Link to="/Odesa">Apartment Odessa</Link>
+                            <Link to="/Odessa">Apartment Odessa</Link>
                         </li>
                     </ul>
                     <p>
