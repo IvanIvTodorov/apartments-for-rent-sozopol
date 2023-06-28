@@ -1,2 +1,0 @@
-# ApartmentsForRentSozopol
-Apartments for rent
