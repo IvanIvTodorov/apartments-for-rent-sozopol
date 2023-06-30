@@ -2,6 +2,7 @@ import style from "./Odesa.Module.css"
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 import { LangContext } from "../../contexts/Language";
 import { useContext } from "react";
+import { CalendarOdesa } from "../Calendar/Odesa/OdesaCalendar";
 
 
 
@@ -55,6 +56,8 @@ export const Odesa = ({ OdesaPhotos }) => {
                         </section>
                     </section>
                 </section>
+                <h2>Заетост</h2>
+                <CalendarOdesa></CalendarOdesa>
             </section>
         );
     };
@@ -103,9 +106,11 @@ export const Odesa = ({ OdesaPhotos }) => {
                             <p>Air-conditioning<i classNames="fa-solid fa-snowflake"></i></p>
                             <p>Stove<i className="fa-solid fa-fire-burner"></i></p>
                             <p>Utensils<i className="fa-solid fa-utensils"></i></p>
-                        </section> 
+                        </section>
                     </section>
                 </section>
+                <h2>Occupancy</h2>
+                <CalendarOdesa></CalendarOdesa>
             </section>
         );
     };

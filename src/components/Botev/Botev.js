@@ -2,6 +2,7 @@ import style from "./Botev.Module.css"
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry"
 import { LangContext } from "../../contexts/Language";
 import { useContext } from "react";
+import { CalendarBotev } from "../Calendar/Botev/CalendarBotev";
 
 
 export const Botev = ({ BotevPhotos }) => {
@@ -54,6 +55,8 @@ export const Botev = ({ BotevPhotos }) => {
                         </section>
                     </section>
                 </section>
+                <h2>Заетост</h2>
+                <CalendarBotev></CalendarBotev>
             </section>
         );
     };
@@ -105,6 +108,8 @@ export const Botev = ({ BotevPhotos }) => {
                         </section>
                     </section>
                 </section>
+                <h2>Occupancy</h2>
+                <CalendarBotev></CalendarBotev>
             </section>           
         );
     };
