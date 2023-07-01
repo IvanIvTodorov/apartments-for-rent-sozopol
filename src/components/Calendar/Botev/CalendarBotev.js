@@ -27,9 +27,9 @@ export const CalendarBotev = () => {
     const { lang } = useContext(LangContext);
 
     let date = new Date();
+    let year = date.getFullYear();
     const [curMonth, setCurMonth] = useState(date.getMonth());
 
-    let year = date.getFullYear();
 
     const goPrev = (curMonth) => {
         if (curMonth === 0) {

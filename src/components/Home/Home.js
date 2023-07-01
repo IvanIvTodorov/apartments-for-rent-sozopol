@@ -13,7 +13,7 @@ export const Home = () => {
             <section className="home-section">
                 <section className="apartments">
                     <Link to="/Odessa" className="link">
-                        <h4>АПАРТАМЕНТ ОДЕСА</h4>
+                        <h4 className="odesa-h4">АПАРТАМЕНТ ОДЕСА</h4>
                         <section className="odesa">
                             <img src={odesaPanorama} alt="apartment-odesa" />
                             <p>
