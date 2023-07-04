@@ -8,17 +8,17 @@ export const September2023 = () => {
                 <li></li>
                 <li></li>
                 <li></li>
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
+                <li className="active">1</li>
+                <li className="active">2</li>
+                <li className="active">3</li>
             </section>
             <section>
-                <li>4</li>
-                <li>5</li>
-                <li>6</li>
-                <li>7</li>
-                <li>8</li>
-                <li>9</li>
+                <li className="active">4</li>
+                <li className="active">5</li>
+                <li className="active">6</li>
+                <li className="active">7</li>
+                <li className="active">8</li>
+                <li className="active">9</li>
                 <li>10</li>
             </section>
             <section>
