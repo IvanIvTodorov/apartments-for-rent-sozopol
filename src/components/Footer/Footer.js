@@ -9,12 +9,8 @@ export const Footer = () => {
             <footer>
                 <p>
                     <i className="fa-solid fa-phone"></i>
-                    ЗА РЕЗЕРВАЦИИ: ИВАН ТОДОРОВ
-                    <img width="25" height="25" src="https://img.icons8.com/fluency/48/bulgaria.png" alt="bulgaria" />
-                    <a href="tel:+359878194897">+359878194897</a>
-                    ,
-                    <img width="25" height="25" src="https://img.icons8.com/fluency/48/czech-republic-circular.png" alt="czech-republic-circular" />
-                    <a href="tel:+420608194825">+359878194897</a>
+                    ЗА РЕЗЕРВАЦИИ: ИВАН ТОДОРОВ 
+                    <a id="phone" href="tel:+359878194897"> +359878194897</a>
                     <i className="fa-solid fa-phone"></i>
                 </p>
             </footer>
@@ -26,12 +22,8 @@ export const Footer = () => {
             <footer>
                 <p>
                     <i className="fa-solid fa-phone"></i>
-                    FOR RESERVATIONS: IVAN TODOROV
-                    <img width="25" height="25" src="https://img.icons8.com/fluency/48/bulgaria.png" alt="bulgaria" />
-                    <a href="tel:+359878194897">+359878194897</a>
-                    ,
-                    <img width="25" height="25" src="https://img.icons8.com/fluency/48/czech-republic-circular.png" alt="czech-republic-circular" />
-                    <a href="tel:+420608194825">+359878194897</a>
+                    FOR RESERVATIONS: IVAN TODOROV 
+                    <a id="phone" href="tel:+359878194897">+359878194897</a>
                     <i className="fa-solid fa-phone"></i>
                 </p>
             </footer>
