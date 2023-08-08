@@ -17,9 +17,9 @@ export const August2023 = () => {
                 <li>8</li>
                 <li>9</li>
                 <li>10</li>
-                <li>11</li>
-                <li>12</li>
-                <li>13</li>
+                <li className="active">11</li>
+                <li className="active">12</li>
+                <li className="active">13</li>
             </section>
             <section>
                 <li>14</li>
