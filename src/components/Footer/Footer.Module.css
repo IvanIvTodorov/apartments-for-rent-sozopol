@@ -46,17 +46,21 @@ p img {
 }
 
 @media (max-width:450px) {
-    .fa-phone {
-        display: none;
-    }
 
-    footer p a,
+    footer p a{
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        color: darkred;
+        font-size: 1em;
+        font-weight: bold;
+    }
     footer p {
         display: flex;
         justify-content: center;
         text-decoration: none;
         color: black;
-        font-size: 1em;
+        font-size: 1.2em;
         font-weight: bold;
     }
 
