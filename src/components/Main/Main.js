@@ -10,9 +10,9 @@ export const Main = () => {
     return (
         <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/Botev" element={<Botev BotevPhotos={BotevPhotos}/>} />
-            <Route path="/Odessa" element={<Odesa OdesaPhotos={OdesaPhotos}/>} />
+            <Route path="/Botev" element={<Botev BotevPhotos={BotevPhotos} />} />
+            <Route path="/Odessa" element={<Odesa OdesaPhotos={OdesaPhotos} />} />
             <Route path='*' element={<Home />} />
-        </Routes>
+        </Routes> 
     );
 };
