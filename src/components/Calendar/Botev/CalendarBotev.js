@@ -1,17 +1,17 @@
 import { Fragment, useContext, useState } from "react"
 import style from "./CalendarBotev.Module.css"
-import { January2023 } from "./2023/January2023"
-import { February2023 } from "./2023/February2023"
-import { March2023 } from "./2023/March2023"
-import { April2023 } from "./2023/April2023"
-import { May2023 } from "./2023/May2023"
-import { June2023 } from "./2023/June2023"
-import { July2023 } from "./2023/July2023"
-import { August2023 } from "./2023/August2023"
-import { September2023 } from "./2023/September2023"
-import { October2023 } from "./2023/October2023"
-import { November2023 } from "./2023/November2023"
-import { December2023 } from "./2023/December2023"
+import { January2024 } from "./2024/January2024"
+import { February2024 } from "./2024/February2024"
+import { March2024 } from "./2024/March2024"
+import { April2024 } from "./2024/April2024"
+import { May2024 } from "./2024/May2024"
+import { June2024 } from "./2024/June2024"
+import { July2024 } from "./2024/July2024"
+import { August2024 } from "./2024/August2024"
+import { September2024 } from "./2024/September2024"
+import { October2024 } from "./2024/October2024"
+import { November2024 } from "./2024/November2024"
+import { December2024 } from "./2024/December2024"
 import { LangContext } from "../../../contexts/Language.js";
 
 const monthEn = ["January", "February", "March",
@@ -75,18 +75,18 @@ export const CalendarBotev = () => {
                     <li>Нед</li>
                 </section>}
 
-                {curMonth === 0 && <January2023 />}
-                {curMonth === 1 && <February2023 />}
-                {curMonth === 2 && <March2023 />}
-                {curMonth === 3 && <April2023 />}
-                {curMonth === 4 && <May2023 />}
-                {curMonth === 5 && <June2023 />}
-                {curMonth === 6 && <July2023 />}
-                {curMonth === 7 && <August2023 />}
-                {curMonth === 8 && <September2023 />}
-                {curMonth === 9 && <October2023 />}
-                {curMonth === 10 && <November2023 />}
-                {curMonth === 11 && <December2023 />}
+                {curMonth === 0 && <January2024 />}
+                {curMonth === 1 && <February2024 />}
+                {curMonth === 2 && <March2024 />}
+                {curMonth === 3 && <April2024 />}
+                {curMonth === 4 && <May2024 />}
+                {curMonth === 5 && <June2024 />}
+                {curMonth === 6 && <July2024 />}
+                {curMonth === 7 && <August2024 />}
+                {curMonth === 8 && <September2024 />}
+                {curMonth === 9 && <October2024 />}
+                {curMonth === 10 && <November2024 />}
+                {curMonth === 11 && <December2024 />}
                 {lang === 'BG' && <p className="agenda">В червено са отбелязани дните, в които апартамента е зает!</p>}
                 {lang === 'EN' && <p className="agenda">The days when the apartment is occupied are marked in red!</p>}
             </ul>

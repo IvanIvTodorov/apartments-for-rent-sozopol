@@ -1,6 +1,6 @@
 import { Fragment } from "react"
 
-export const January2024 = () => {
+export const July2024 = () => {
     return (
         <Fragment>
             <section>

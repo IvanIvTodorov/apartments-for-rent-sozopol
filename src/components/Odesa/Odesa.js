@@ -36,11 +36,11 @@ export const Odesa = ({ OdesaPhotos }) => {
                     <section className="price">
                         <div>
                             <h5>Септември - юни</h5>
-                            <p>120 BGN</p>
+                            <p>100 BGN</p>
                         </div>
                         <div>
                             <h5>Юли - август</h5>
-                            <p>150 BGN</p>
+                            <p>120 BGN</p>
                         </div>
                     </section>
                     <section className="comfort">
@@ -89,11 +89,11 @@ export const Odesa = ({ OdesaPhotos }) => {
                     <section className="price">
                         <div>
                             <h5>September - June</h5>
-                            <p>65 EUR</p>
+                            <p>55 EUR</p>
                         </div>
                         <div>
                             <h5>July - August</h5>
-                            <p>80 EUR</p>
+                            <p>65 EUR</p>
                         </div>
                     </section>
                     <section className="comfort">

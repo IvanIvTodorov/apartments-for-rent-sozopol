@@ -1,6 +1,6 @@
 import { Fragment } from "react"
 
-export const January2024 = () => {
+export const July2024 = () => {
     return (
         <Fragment>
             <section>
@@ -27,22 +27,22 @@ export const January2024 = () => {
                 <li>17</li>
                 <li>18</li>
                 <li>19</li>
-                <li>20</li>
-                <li>21</li>
+                <li className="active">20</li>
+                <li className="active">21</li>
             </section>
             <section>
-                <li>22</li>
-                <li>23</li>
-                <li>24</li>
-                <li>25</li>
-                <li>26</li>
-                <li>27</li>
-                <li>28</li>
+                <li className="active">22</li>
+                <li className="active">23</li>
+                <li className="active">24</li>
+                <li className="active">25</li>
+                <li className="active">26</li>
+                <li className="active">27</li>
+                <li className="active">28</li>
             </section>
             <section>
-                <li>29</li>
-                <li>30</li>
-                <li>31</li>
+                <li className="active">29</li>
+                <li className="active">30</li>
+                <li className="active">31</li>
                 <li></li>
                 <li></li>
                 <li></li>

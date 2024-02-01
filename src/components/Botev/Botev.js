@@ -35,11 +35,11 @@ export const Botev = ({ BotevPhotos }) => {
                     <section className="price">
                         <div>
                             <h5>Септември - юни</h5>
-                            <p>100 BGN</p>
+                            <p>90 BGN</p>
                         </div>
                         <div>
                             <h5>Юли - август</h5>
-                            <p>130 BGN</p>
+                            <p>110 BGN</p>
                         </div>
                     </section>
                     <section className="comfort">
@@ -88,11 +88,11 @@ export const Botev = ({ BotevPhotos }) => {
                     <section className="price">
                         <div>
                             <h5>September - June</h5>
-                            <p>55 EUR</p>
+                            <p>50 EUR</p>
                         </div>
                         <div>
                             <h5>July - August</h5>
-                            <p>70 EUR</p>
+                            <p>60 EUR</p>
                         </div>
                     </section>
                     <section className="comfort">
