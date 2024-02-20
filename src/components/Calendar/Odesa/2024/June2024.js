@@ -45,8 +45,8 @@ export const June2024 = () => {
                 <li>26</li>
                 <li>27</li>
                 <li>28</li>
-                <li>29</li>
-                <li>30</li>
+                <li className="active">29</li>
+                <li className="active">30</li>
             </section>
         </Fragment>
     )
