@@ -28,23 +28,23 @@ export const August2024 = () => {
                 <li className="active">15</li>
                 <li className="active">16</li>
                 <li className="active">17</li>
-                <li>18</li>
+                <li className="active">18</li>
             </section>
             <section>
-                <li>19</li>
-                <li>20</li>
-                <li>21</li>
-                <li>22</li>
-                <li>23</li>
-                <li>24</li>
-                <li>25</li>
+                <li className="active">19</li>
+                <li className="active">20</li>
+                <li className="active">21</li>
+                <li className="active">22</li>
+                <li className="active">23</li>
+                <li className="active">24</li>
+                <li className="active">25</li>
             </section>
             <section>
-                <li>26</li>
-                <li>27</li>
-                <li>28</li>
-                <li>29</li>
-                <li>30</li>
+                <li className="active">26</li>
+                <li className="active">27</li>
+                <li className="active">28</li>
+                <li className="active">29</li>
+                <li className="active">30</li>
                 <li>31</li>
                 <li></li>
             </section>
